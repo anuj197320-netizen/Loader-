@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+We#!/usr/bin/env python3
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -37,7 +37,9 @@ except ImportError:
     pass
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-BOT_TOKENS = [8710359524:AAHVtKgJXfziJ4lJ3mD91S1Trjktf0dr3gE] if BOT_TOKEN else []
+
+BOT_TOKENS = [8710359524:AAH8NF8C3713oN7_l76sCWM8j23Rt6R9Dz4] if BOT_TOKEN else []
+
 OWNER_ID = int(os.getenv("OWNER_ID", "8612705143"))
 GLOBAL_DELAY = 0.0
 CURRENT_PREFIX = "!"
