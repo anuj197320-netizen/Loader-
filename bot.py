@@ -38,7 +38,7 @@ except ImportError:
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 
-BOT_TOKENS = [8710359524:AAH8NF8C3713oN7_l76sCWM8j23Rt6R9Dz4] if BOT_TOKEN else []
+BOT_TOKENS = [8710359524:AAGh_sSbAbDL635KIyiHPVDxgHiLLuWpOOE] if BOT_TOKEN else []
 
 OWNER_ID = int(os.getenv("OWNER_ID", "8612705143"))
 GLOBAL_DELAY = 0.0
