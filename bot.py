@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python 3D 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -33,7 +33,7 @@ BOT_TOKENS = [
     "8710359524:AAHVtKgJXfziJ4lJ3mD91S1Trjktf0dr3gE",
 ]
 
-OWNER_ID = 8710359524
+OWNER_ID = 8612705143
 GLOBAL_DELAY = 0.0
 CURRENT_PREFIX = "!"
 ALLOWED_PREFIXES = ["!", "."]
