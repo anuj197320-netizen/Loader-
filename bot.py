@@ -30,10 +30,10 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from telegram.error import RetryAfter, TimedOut, NetworkError, BadRequest, Forbidden
 
 BOT_TOKENS = [
-    "8710359524:AAGuKBI0FVbWiWhbbENOKPFf-Lz1AtrGEyc",
+    "8710359524:AAHVtKgJXfziJ4lJ3mD91S1Trjktf0dr3gE",
 ]
 
-OWNER_ID = 8885548863
+OWNER_ID = 8710359524
 GLOBAL_DELAY = 0.0
 CURRENT_PREFIX = "!"
 ALLOWED_PREFIXES = ["!", "."]
