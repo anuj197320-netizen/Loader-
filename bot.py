@@ -41,7 +41,6 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 
 
 BOT_TOKENS = [BOT_TOKEN] if BOT_TOKEN else []
-
 OWNER_ID = int(os.getenv("OWNER_ID", "8612705143"))
 GLOBAL_DELAY = 0.0
 CURRENT_PREFIX = "!"
