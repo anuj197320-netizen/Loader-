@@ -75,7 +75,7 @@ REPLY_BOT = None
 
 SUDO_FILE = "sudo_users.json"
 ACCESS_FILE = "access_settings.json"
-ACCESS_MODE = "public"  # private = approved groups only; public = any group
+ACCESS_MODE = "private"  # private = approved groups only; public = any group
 APPROVED_GROUPS: Set[int] = set()
 
 
@@ -84,7 +84,7 @@ def load_access_settings():
     try:
         with open(ACCESS_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-        ACCESS_MODE = data.get("mode", "public")
+        ACCESS_MODE = data.get("mode", "private")
         if ACCESS_MODE not in {"public", "private"}:
             ACCESS_MODE = "private"
         APPROVED_GROUPS = {int(x) for x in data.get("approved_groups", [])}
